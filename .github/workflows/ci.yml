@@ -16,7 +16,8 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
-      - run: npm test
+      - name: npm run test
+        run: npm run test
 
   style:
     name: Style
